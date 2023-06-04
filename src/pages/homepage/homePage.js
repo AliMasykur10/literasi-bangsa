@@ -12,6 +12,7 @@ export default function HomePage() {
               <li>surabaya</li>
               <li>sepak bola</li>
               <li>entertainment</li>
+              <li>basket</li>
             </ul>
           </div>
           <div className="nav-second-comp">
