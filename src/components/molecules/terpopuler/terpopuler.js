@@ -7,13 +7,15 @@ export default function Terpopuler() {
   }
   return (
     <>
-      <div className="terpopuler bg-slate-700 w-full h-12 sm:basis-4/12">
+      <div className="terpopuler bg-slate-700 w-full sm:basis-4/12">
         <h1 className="font-bold text-2xl mb-4 ml-2">Terpopuler</h1>
         <hr className="mb-1" />
         <hr className="mb-7" />
-        {row.map((items, index) => (
-          <div key={index}>{items}</div>
-        ))}
+        <div className="data-terpopuler">
+          {row.map((items, index) => (
+            <div key={index}>{items}</div>
+          ))}
+        </div>
       </div>
     </>
   );
