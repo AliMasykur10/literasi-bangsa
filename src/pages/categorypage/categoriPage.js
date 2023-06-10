@@ -7,9 +7,8 @@ export default function CategoriPage() {
   return (
     <>
       <Header />
-      <div className="w-full sm:flex sm:max-w-6xl mx-auto gap-4 mt-10 gap-4">
+      <div className="w-full sm:flex sm:max-w-6xl mx-auto gap-4 mt-10">
         <NewsSummary titleNews={"Daerah"} className="basis-8/12" />
-
         <Terpopuler />
       </div>
       <Footer />
