@@ -3,6 +3,7 @@ import navIcon from "../../../assets/navbar-icon.svg";
 import twitter from "../../../assets/twitter.svg";
 import instagram from "../../../assets/instagram.svg";
 import facebook from "../../../assets/facebook.svg";
+import { Link } from "react-router-dom";
 
 export default function HeaderNavbar() {
   function handleClickNavbar(e) {
@@ -13,7 +14,9 @@ export default function HeaderNavbar() {
     <nav className="relative w-full sm:max-w-6xl  mx-auto">
       <div className="first-comp flex justify-center items-center sm:justify-between px-4 py-5 ">
         <img src={navIcon} onClick={handleClickNavbar} alt="navbar icon" className="absolute left-0 ml-2 sm:hidden" />
-        <img src={literasiBangsa} alt="literasi bangsa" className="logo-literasiBangsa w-36 sm:w-52" />
+        <Link to={"/"}>
+          <img src={literasiBangsa} alt="literasi bangsa" className="logo-literasiBangsa w-36 sm:w-52" />
+        </Link>
         <div className="right-part-nav  hidden  sm:flex sm:items-center">
           <p className="mr-2">4 Juni 2023</p>|
           <div className="social-media-nav flex gap-2 ml-2">

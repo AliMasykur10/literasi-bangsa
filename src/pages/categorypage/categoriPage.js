@@ -1,15 +1,15 @@
+import NewsSummary from "../../components/molecules/beritaTerkini/beritaTerkini";
 import Terpopuler from "../../components/molecules/terpopuler/terpopuler";
 import Footer from "../../components/organisms/footer/footer";
 import Header from "../../components/organisms/header/header";
 
-import NewsFirstComp from "../../components/molecules/newsFirstComp/newsFirstComp";
-
-export default function NewsPage() {
+export default function CategoriPage() {
   return (
     <>
       <Header />
-      <div className="news-component w-full sm:flex sm:max-w-6xl mx-auto gap-4 mt-10">
-        <NewsFirstComp />
+      <div className="w-full sm:flex sm:max-w-6xl mx-auto gap-4 mt-10 gap-4">
+        <NewsSummary titleNews={"Daerah"} className="basis-8/12" />
+
         <Terpopuler />
       </div>
       <Footer />
