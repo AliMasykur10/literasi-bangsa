@@ -1,9 +1,13 @@
+import { Link } from "react-router-dom";
+
 export default function FooterNavbar() {
   return (
     <>
       <nav className=" w-full sm:max-w-6xl mx-auto hidden sm:block overflow-x-auto">
         <ul className=" flex justify-between gap-4 px-4 py-3">
-          <li>NASIONAL</li>
+          <li>
+            <Link to={"/categori"}>NASIONAL</Link>
+          </li>
           <li>INTERNASIONAL</li>
           <li>EKONOMI</li>
           <li>SEPAKBOLA</li>
