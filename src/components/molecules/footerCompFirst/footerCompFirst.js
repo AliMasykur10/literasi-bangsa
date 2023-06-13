@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import logo from "../../../assets/lliterasibangsa.svg";
 
 export default function FooterCompFirst() {
@@ -11,7 +12,9 @@ export default function FooterCompFirst() {
           <p>Email - literasibangsa@gmail.com</p>
         </div>
         <div className="footer-right mt-10 grid grid-rows-5 grid-flow-col gap-y-2 sm:gap-y-4 sm:gap-x-10 ">
-          <p>Nasional</p>
+          <Link to="/categori/Nasional">
+            <p>Nasional</p>
+          </Link>
           <p>Daerah</p>
           <p>Internasional</p>
           <p>Ekonomi</p>
