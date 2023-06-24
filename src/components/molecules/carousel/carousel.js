@@ -33,7 +33,6 @@ export default function CarouselComp() {
               </div>
             </div>
           </div>
-np
           <div className="relative h-full w-full">
             <img src={budhis} alt="1" className="w-full object-cover" />
             <div className="absolute inset-0 grid h-full w-full bottom-0 left-0 bg-gradient-to-t from-black">
