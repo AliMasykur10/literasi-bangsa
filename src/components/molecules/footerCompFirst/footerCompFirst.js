@@ -6,7 +6,9 @@ export default function FooterCompFirst() {
     <>
       <div className="footer-component-first w-full sm:max-w-6xl mx-auto mb-5 sm:flex sm:justify-between p-2">
         <div className="footer-left">
-          <img src={logo} alt="literasi bangsa" />
+          <Link to="/">
+            <img src={logo} alt="literasi bangsa" />
+          </Link>
           <p>Probolinggo - Jawa Timur</p>
           <p>Telepon - 085-123-456-789</p>
           <p>Email - literasibangsa@gmail.com</p>
@@ -15,15 +17,33 @@ export default function FooterCompFirst() {
           <Link to="/categori/Nasional">
             <p>Nasional</p>
           </Link>
-          <p>Daerah</p>
-          <p>Internasional</p>
-          <p>Ekonomi</p>
-          <p>Olahraga</p>
-          <p>Sepakbola</p>
-          <p>Otomotif</p>
-          <p>Hiburan</p>
-          <p>Pendidikan</p>
-          <p>Entertainment</p>
+          <Link to="/categori/Daerah">
+            <p>Daerah</p>
+          </Link>
+          <Link to="/categori/Internasional">
+            <p>Internasional</p>
+          </Link>
+          <Link to="/categori/Ekonomi">
+            <p>Ekonomi</p>
+          </Link>
+          <Link to="/categori/Olahraga">
+            <p>Olahraga</p>
+          </Link>
+          <Link to="/categori/Sepakbola">
+            <p>Sepakbola</p>
+          </Link>
+          <Link to="/categori/Otomotif">
+            <p>Otomotif</p>
+          </Link>
+          <Link to="/categori/Hiburan">
+            <p>Hiburan</p>
+          </Link>
+          <Link to="/categori/Pendidikan">
+            <p>Pendidikan</p>
+          </Link>
+          <Link to="/categori/Entertainment">
+            <p>Entertainment</p>
+          </Link>
         </div>
       </div>
     </>
