@@ -1,7 +1,8 @@
 import budhis from "../../../assets/budhis.png";
 import { Carousel, Typography } from "@material-tailwind/react";
 
-export default function CarouselComp() {
+export default function CarouselComp(data) {
+  console.log(data.data);
   return (
     <>
       <div className="carousel p-2 sm:p-0">

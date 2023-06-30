@@ -11,7 +11,6 @@ export default function HeaderNavbar() {
     e.preventDefault();
     console.log("navbar telah di tekan");
   }
-  console.log(CurrentDate());
 
   return (
     <nav className="relative w-full sm:max-w-6xl  mx-auto">
